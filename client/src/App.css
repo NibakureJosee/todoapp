@@ -1,0 +1,39 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/bg.png");
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(9, 58, 114);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.task_container {
+  margin: 15px 0;
+  cursor: pointer;
+
+}
+
+.task {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
